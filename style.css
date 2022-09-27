@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.body{
+    background-image: url('./hoja2.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+.main{
+    /* background-image: linear-gradient(to right top, #ecf491, #addf9a, #80c6a3, #69a9a0, #658b90, #5e8693, #5b7f96, #5f7896, #6d82ba, #8f88d8, #c187eb, #fb7ff0); */
+    height: 100vh;
+    max-height: 100vh;
+
+} 
+
+.container-primary{
+    position: relative;
+    margin: 0 auto;
+    top: 15rem;
+}
+
+.principal-title{
+    background-color: #f15bb5;
+    border: 0.2rem black solid;
+    border-radius: 1.2rem;
+    font-size: 2.5rem;
+    width: 18vw;
+    height: 6vh;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 2rem;
+}
+
+
+.formulario{
+    border: 0.2rem black solid;
+    width: 30vw;
+    min-height: auto;
+    max-height: auto;
+    background-color: #fee440;
+    border-radius: 1rem;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.formulario__inputNotas{
+    border-radius: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.2rem;
+    padding-top: 0.5rem;
+    margin: 0.3rem 0;
+}
+
+.formulario__text{
+    
+}
+
+.calcuButton{
+    position: relative;
+    font-size: 1.8rem;
+    margin: 1rem auto;  
+}
+
+.formulario__resultado{
+    padding-top: 0.5rem;
+}
